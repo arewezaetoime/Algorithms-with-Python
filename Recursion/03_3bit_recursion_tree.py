@@ -11,5 +11,5 @@ def gen_3bit_tree(idx, vector):
 
 n = int(input())
 
-vector = [0] * n
+vector = [None] * n
 gen_3bit_tree(0, vector)
